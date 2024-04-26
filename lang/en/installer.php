@@ -2,11 +2,11 @@
 
 
 return [
-    'title' => 'Food King Installer',
+    'title' => 'GolpoFood Installer',
     'next'  => 'Next Step',
     'welcome' => [
         'templateTitle' => 'Welcome',
-        'title'         => 'Food King Installer',
+        'title'         => 'GolpoFood Installer',
         'message'       => 'Easy Installation and Setup Wizard.',
         'next'          => 'Check Requirements',
     ],
@@ -67,7 +67,7 @@ return [
         'next'            => 'Finish',
     ],
     'installed' => [
-        'success_log_message' => 'Food King installer successfully INSTALLED on ',
-        'update_log_message'  => 'Food King Installer successfully UPDATED on ',
+        'success_log_message' => 'GolpoFood installer successfully INSTALLED on ',
+        'update_log_message'  => 'GolpoFood Installer successfully UPDATED on ',
     ],
 ];

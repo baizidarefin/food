@@ -2,12 +2,12 @@
 
 
 return [
-    'title' => 'Food King ইনস্টলার',
+    'title' => 'GolpoFood ইনস্টলার',
     'next'  => 'পরবর্তী ধাপ',
 
     'welcome' => [
         'templateTitle' => 'স্বাগত',
-        'title'         => 'Food King ইনস্টলার',
+        'title'         => 'GolpoFood ইনস্টলার',
         'message'       => 'সহজ ইনস্টলেশন এবং সেটআপ উইজার্ড।',
         'next'          => 'প্রয়োজনীয়তা পরীক্ষা করুন',
     ],
@@ -63,7 +63,7 @@ return [
     ],
 
     'installed' => [
-        'success_log_message' => 'Food King ইনস্টলার সফলভাবে ইনস্টল করা হয়েছে',
-        'update_log_message'  => 'Food King ইনস্টলার সফলভাবে আপডেট হয়েছে',
+        'success_log_message' => 'GolpoFood ইনস্টলার সফলভাবে ইনস্টল করা হয়েছে',
+        'update_log_message'  => 'GolpoFood ইনস্টলার সফলভাবে আপডেট হয়েছে',
     ],
 ];
