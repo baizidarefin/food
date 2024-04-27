@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+/database/*
 .env
 .env.backup
 .phpunit.result.cache
@@ -21,7 +22,7 @@ storage/debugbar
 /public/mix-manifest.json
 /public/js/app.js
 public/js/app.js
-backup
+/backup/*
 error_log
 public/error_log
 /ublic/error_log
