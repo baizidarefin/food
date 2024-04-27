@@ -18,20 +18,20 @@ class CompanyTableSeeder extends Seeder
     public function run()
     {
         Settings::group('company')->set([
-            'company_name'         => 'Golpo - Restaurant Food Ordering & Delivery App',
-            'company_email'        => 'info@golpocom.com',
-            'company_phone'        => '+8801787671962',
-            'company_website'      => 'https://golpocom.com',
-            'company_city'         => 'Gulshan 1',
+            'company_name'         => 'FoodKing - Restaurant Food Ordering & Delivery App',
+            'company_email'        => 'info@inilabs.net',
+            'company_phone'        => '+13333846282',
+            'company_website'      => 'https://foodking.dev',
+            'company_city'         => 'Mirpur 1',
             'company_state'        => 'Dhaka',
             'company_country_code' => 'BGD',
-            'company_zip_code'     => '1212',
-            'company_address'      => 'Niketon Housing Society, Gulshan'
+            'company_zip_code'     => '1216',
+            'company_address'      => 'House : 25, Road No: 2, Block A, Mirpur-1, Dhaka 1216'
         ]);
 
         $envService = new EnvEditor();
         $envService->addData([
-            'APP_NAME' => "Golpo - Restaurant Food Ordering & Delivery App"
+            'APP_NAME' => "FoodKing - Restaurant Food Ordering & Delivery App"
         ]);
         Artisan::call('optimize:clear');
     }

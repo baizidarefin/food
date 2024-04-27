@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'licenseCodeCheckerUrl' => 'https://support.golpocom.com',
-    'officialSite'          => 'https://golpocom.com',
-    'loginUrl'              => 'https://golpocom.com/login',
-    'activeLicense'         => 'https://golpocom.com/active-license',
+    'licenseCodeCheckerUrl' => 'https://support.inilabs.net',
+    'officialSite'          => 'https://inilabs.net',
+    'loginUrl'              => 'https://inilabs.net/login',
+    'activeLicense'         => 'https://inilabs.net/active-license',
     'itemId'                => '45845092',
     'version'               => '2.0'
 ];
