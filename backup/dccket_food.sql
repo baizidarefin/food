@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 26, 2024 at 07:00 PM
+-- Generation Time: Apr 27, 2024 at 05:36 AM
 -- Server version: 5.7.23-23
 -- PHP Version: 8.1.27
 
@@ -428,7 +428,7 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `item_category_id`, `tax_id`, `name`, `slug`, `caution`, `description`, `price`, `status`, `item_type`, `order`, `is_featured`, `creator_type`, `creator_id`, `editor_type`, `editor_id`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(1, 1, 1, 'সাদা ভাত', 'sada-vat', NULL, NULL, 40.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 05:22:00', '2024-04-27 05:22:00'),
+(1, 1, 1, 'সাদা ভাত', 'sada-vat', NULL, NULL, 40.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, '2024-04-27 20:21:47', '2024-04-27 05:22:00', '2024-04-27 20:21:47'),
 (2, 1, 1, 'ঘন ডাল', 'ghn-dal', NULL, NULL, 30.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 05:28:53', '2024-04-27 05:29:56'),
 (3, 1, 1, 'খাসি ভুনা', 'khasi-vuna', NULL, NULL, 230.000000, 5, 10, 1, 5, NULL, NULL, NULL, NULL, NULL, '2024-04-27 05:29:44', '2024-04-27 05:30:06'),
 (4, 1, 1, 'খাসি কারী', 'khasi-karee', NULL, NULL, 220.000000, 5, 10, 1, 5, NULL, NULL, NULL, NULL, NULL, '0000-00-00 00:00:00', '2024-04-27 05:37:52'),
@@ -509,7 +509,8 @@ INSERT INTO `items` (`id`, `item_category_id`, `tax_id`, `name`, `slug`, `cautio
 (82, 12, 1, 'ফ্রেস জুস', 'fres-jus', NULL, NULL, 140.000000, 5, 10, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 09:34:09', '2024-04-27 09:34:09'),
 (83, 12, 1, 'কফি', 'kfi', NULL, NULL, 80.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 09:36:29', '2024-04-27 09:36:29'),
 (84, 12, 1, 'লাচ্চি', 'lacci', NULL, NULL, 120.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 09:37:35', '2024-04-27 09:37:35'),
-(85, 12, 1, 'ফালুদা', 'faluda', NULL, NULL, 150.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 09:38:17', '2024-04-27 09:54:08');
+(85, 12, 1, 'ফালুদা', 'faluda', NULL, NULL, 150.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 09:38:17', '2024-04-27 09:54:08'),
+(86, 1, 1, 'সাদা ভাত', 'sada-vat', NULL, NULL, 40.000000, 5, 5, 1, 10, NULL, NULL, NULL, NULL, NULL, '2024-04-27 20:22:04', '2024-04-27 20:22:04');
 
 -- --------------------------------------------------------
 
@@ -853,7 +854,6 @@ INSERT INTO `media` (`id`, `model_type`, `model_id`, `uuid`, `collection_name`, 
 (39, 'App\\Models\\ItemCategory', 11, '93bf4cc6-116f-4077-8eff-f06626fe95be', 'item-category', 'curry', 'curry.png', 'image/png', 'public', 'public', 12699, '[]', '[]', '{\"cover\": true, \"thumb\": true}', '[]', 1, '2024-04-27 05:11:47', '2024-04-27 05:11:47'),
 (40, 'App\\Models\\ItemCategory', 12, 'b9084e5c-ae42-4bba-bc69-ac36c7280927', 'item-category', 'juice', 'juice.png', 'image/png', 'public', 'public', 4211, '[]', '[]', '{\"cover\": true, \"thumb\": true}', '[]', 1, '2024-04-27 05:12:05', '2024-04-27 05:12:05'),
 (41, 'App\\Models\\ItemCategory', 13, '99343a5c-ec1f-4cc4-aed9-f090cf2c5f9d', 'item-category', 'snack', 'snack.png', 'image/png', 'public', 'public', 6413, '[]', '[]', '{\"cover\": true, \"thumb\": true}', '[]', 1, '2024-04-27 05:14:45', '2024-04-27 05:14:45'),
-(43, 'App\\Models\\Item', 1, '3f2dd2df-939d-4a40-a410-e32b6031f368', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 05:25:45', '2024-04-27 05:25:45'),
 (44, 'App\\Models\\Item', 2, 'cd3469f9-29b9-41ae-b74c-88b786c4eaea', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 05:28:53', '2024-04-27 05:28:54'),
 (45, 'App\\Models\\Item', 3, '4834c0c4-fd9a-4926-8852-8b9afb4adff8', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 05:29:44', '2024-04-27 05:29:44'),
 (46, 'App\\Models\\Item', 4, '7cd56de4-ced8-4dc9-b411-2b7ed9da85ec', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 05:37:52', '2024-04-27 05:37:52'),
@@ -935,7 +935,10 @@ INSERT INTO `media` (`id`, `model_type`, `model_id`, `uuid`, `collection_name`, 
 (122, 'App\\Models\\Item', 81, '665b0109-b1cc-440a-a0e9-49f930447c26', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 09:32:47', '2024-04-27 09:32:47'),
 (123, 'App\\Models\\Item', 82, '31a2b70f-23c1-4327-8238-f88e8e896159', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 09:34:09', '2024-04-27 09:34:09'),
 (124, 'App\\Models\\Item', 83, 'e0e0562a-6bcc-4bca-94d4-f82cafd7734d', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 09:36:29', '2024-04-27 09:36:29'),
-(125, 'App\\Models\\Item', 84, 'df96c577-3ff5-45eb-9f85-092f2262542c', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 09:37:35', '2024-04-27 09:37:35');
+(125, 'App\\Models\\Item', 84, 'df96c577-3ff5-45eb-9f85-092f2262542c', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 09:37:35', '2024-04-27 09:37:35'),
+(133, 'App\\Models\\Item', 85, '26dbcdc8-ba49-49a5-9c50-9c830108a444', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 18:36:50', '2024-04-27 18:36:51'),
+(136, 'App\\Models\\Item', 1, '0b2c8594-2db3-429a-888e-c0649c14fb23', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 20:09:14', '2024-04-27 20:09:14'),
+(137, 'App\\Models\\Item', 86, '9dd013ee-0ab5-49b7-9b64-860d8336973e', 'item', 'product', 'product.png', 'image/png', 'public', 'public', 26439, '[]', '[]', '{\"cover\": true, \"thumb\": true, \"preview\": true}', '[]', 1, '2024-04-27 20:22:04', '2024-04-27 20:22:04');
 
 -- --------------------------------------------------------
 
@@ -1577,8 +1580,9 @@ CREATE TABLE `personal_access_tokens` (
 --
 
 INSERT INTO `personal_access_tokens` (`id`, `tokenable_type`, `tokenable_id`, `name`, `token`, `abilities`, `last_used_at`, `expires_at`, `created_at`, `updated_at`) VALUES
-(1, 'App\\Models\\User', 1, 'auth_token', '3a34f0e42a2ca327753af11aa0cf3476aa004efaa39c57c34407cd3fcd40004f', '[\"*\"]', '2024-04-27 09:54:08', NULL, '2024-04-25 08:23:06', '2024-04-27 09:54:08'),
-(2, 'App\\Models\\User', 1, 'auth_token', '1933e376fee8ef7a5872f572dcb51ffac4bf2ce1aaee24ee4436bddde72a5ed0', '[\"*\"]', '2024-04-25 15:51:12', NULL, '2024-04-25 15:43:43', '2024-04-25 15:51:12');
+(1, 'App\\Models\\User', 1, 'auth_token', '3a34f0e42a2ca327753af11aa0cf3476aa004efaa39c57c34407cd3fcd40004f', '[\"*\"]', '2024-04-27 18:03:50', NULL, '2024-04-25 08:23:06', '2024-04-27 18:03:50'),
+(2, 'App\\Models\\User', 1, 'auth_token', '1933e376fee8ef7a5872f572dcb51ffac4bf2ce1aaee24ee4436bddde72a5ed0', '[\"*\"]', '2024-04-25 15:51:12', NULL, '2024-04-25 15:43:43', '2024-04-25 15:51:12'),
+(3, 'App\\Models\\User', 1, 'auth_token', '35c4926fac31fac5dd3173d1efff8c02bfb0c376b4be585a03b7f8795ed325f4', '[\"*\"]', '2024-04-27 20:22:17', NULL, '2024-04-27 18:06:12', '2024-04-27 20:22:17');
 
 -- --------------------------------------------------------
 
@@ -2425,7 +2429,7 @@ ALTER TABLE `gateway_options`
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
 
 --
 -- AUTO_INCREMENT for table `item_addons`
@@ -2467,7 +2471,7 @@ ALTER TABLE `languages`
 -- AUTO_INCREMENT for table `media`
 --
 ALTER TABLE `media`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=126;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=138;
 
 --
 -- AUTO_INCREMENT for table `menus`
@@ -2575,7 +2579,7 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT for table `personal_access_tokens`
 --
 ALTER TABLE `personal_access_tokens`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `push_notifications`
